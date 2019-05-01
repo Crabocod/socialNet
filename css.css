@@ -1,0 +1,281 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+.flex{
+	display: flex;
+}
+.grid{
+	display: grid;
+}
+.leftBar{
+	width: 300px;
+	height: 100vh;
+	z-index: 1000;
+	box-shadow:3px 1px 9px 1px rgba(0,0,0,0.32);
+-webkit-box-shadow:3px 1px 9px 1px rgba(0,0,0,0.32);
+-moz-box-shadow:3px 1px 9px 1px rgba(0,0,0,0.32);
+position: fixed;
+}
+.content{
+	background-color: #ececec;
+	background-size: cover;
+	min-height: 900px;
+	max-height: 100%;
+	width: 1200px;
+	margin-left: 39.8vh;
+
+}
+.blueLine{
+	background: #6dbad6;
+	width: 100%;
+	height: 8px;
+}
+.logo{
+	justify-content: center;
+	margin-top:20px;
+}
+.blogName{
+	justify-content: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: #d66cb7;
+	margin-top: 10px;
+}
+.nav{
+	float: right;
+	height: 200px;
+	width: 225px;
+	margin-top: 70px;
+
+}
+.el{
+	margin-top: 10px;
+	height: 40px;
+	width: 100%;
+	line-height: 27px;
+}
+.img{
+	background-image: url(img/Articles.png);
+	width: 27px;
+	height: 27px;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+.img1{
+	background-image: url(img/images.png);
+	width: 27px;
+	height: 27px;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+.strName{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-top: 6px;
+	padding-left: 10px;
+	font-family: 'Lato', sans-serif;
+	
+}
+.el:hover{
+	background: #6dbad6;
+	cursor: pointer;
+	color: white;
+	border-radius: 7px;
+}
+.about{
+	width: 250px;
+	float: right;
+	height: auto;
+	margin-right: 10px;
+}
+.aboutTitle{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: grey;
+	font-family: 'Lato', sans-serif;
+}
+.aboutText{
+	margin-top: 10px;
+	color: grey;
+}
+.strTitle{
+	font-weight: bold;
+	font-size: 23px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.sign{
+	margin-top: 20px;
+	margin-left: 80vh;
+}
+.post{
+	width: 700px;
+	min-height: 200px;
+	max-height: 100%;
+	background: white;
+	box-shadow:3px 1px 9px 1px rgba(0,0,0,0.32);
+	margin-left: 10%;
+	margin-top: 6%;
+}
+.namePost{
+	font-family:  'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 19px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.textPost{
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.attachFile{
+	margin-left: 10px;
+	margin-top: 5px; 
+}
+.deletePost{
+	margin-left: 10%;
+}
+.userLogin{
+	font-family:  'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 23px;
+	color: #d66cb7;
+	text-transform: uppercase;
+	margin-left: 11vh;
+}
+.out{
+	
+	margin-top: 50px;
+	height: 17px;
+	width: 45px;
+	text-decoration:none;
+	font-size: 15px;
+	padding: 5px 5px 5px 5px;
+}
+.out:hover{
+	background: red;
+	color: white;
+	border-radius: 10px;
+}
+.nPost{
+	margin-top: 50px;
+	margin-left:103px;
+	background: #6dbad6;
+	box-shadow:3px 1px 9px 1px rgba(0,0,0,0.32);
+	font-size: 20px;
+	border:2px solid black;
+	width: 100px;
+}
+.nPost:hover{
+	color: white;
+	cursor: pointer;
+	transition: 0.4s;
+	padding:5px;
+	font-weight: bold;
+}
+.posted{
+	border: 1px solid black;
+	background: #6dbad6;
+	box-shadow:3px 1px 9px 1px rgba(0,0,0,0.32);
+	font-size: 17px;
+	padding:3px;
+}
+.posted:hover{
+color: white;
+	cursor: pointer;
+}
+.attach:hover{
+	padding:3px;
+	font-weight: bold;
+	border: 1px solid black;
+	background: #6dbad6;
+	color: white;
+	cursor: pointer;
+	box-shadow:3px 1px 9px 1px rgba(0,0,0,0.32);
+	transition: 0.2s;
+}
+.newPost{
+	margin-left: 103px;
+	margin-top: 10px;
+	display: none;
+}
+.addFile{
+	display: none;
+}
+.visible{
+	display: block;
+}
+.like1{
+	background-image: url(img/like1.png);
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+}
+.like2:hover{
+	cursor: pointer;
+}
+.like2{
+	background-image: url(img/like2.png);
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+}
+.like1:hover{
+	background-image: url(img/like2.png);
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+}
+.numLike{
+	margin-top: 7px;
+	font-size: 18.5px;
+}
